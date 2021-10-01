@@ -8,6 +8,7 @@ public class Hero {
 	//히어로라는 클래스를 인스턴스로 만들수 있다.
 	public Hero(String name) {
 		this.name = name; 
+	///
 		
 	}
 	
