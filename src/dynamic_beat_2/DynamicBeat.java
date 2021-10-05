@@ -29,7 +29,7 @@ public class DynamicBeat extends JFrame {
 	public void paint(Graphics g){
 		screenImage = createImage(Main.SCREEN_WIDTH, Main.SCREEN_HEIGT);
 		screenGraphic = screenImage.getGraphics();
-		screenDraw(screenGraphic);
+		//screenDraw(screenGraphic);
 		g.drawImage(screenImage, 0, 0, null);
 		
 	}
