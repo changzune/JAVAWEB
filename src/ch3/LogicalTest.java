@@ -1,4 +1,4 @@
-package ch3.ex1;
+package ch3;
 
 public class LogicalTest {
 	  public static void main(String args[]){

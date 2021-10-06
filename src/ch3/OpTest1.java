@@ -1,4 +1,4 @@
-package ch3.ex1;
+package ch3;
 
 public class OpTest1 {
 	public static void main(String[] args) {
@@ -6,19 +6,19 @@ public class OpTest1 {
 		int y=11;
 		int z=11;
 		
-		System.out.println("x>yÀÇ ºñ±³°á°ú :"+(x>y));
-		System.out.println("x<yÀÇ ºñ±³°á°ú :"+(x<y));
-		System.out.println("x<20ÀÇ ºñ±³°á°ú :"+(x<20));
+		System.out.println("x>yï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x>y));
+		System.out.println("x<yï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x<y));
+		System.out.println("x<20ï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x<20));
 		
-		System.out.println("x==yÀÇ ºñ±³°á°ú :"+(x==y));
-		System.out.println("x==10ÀÇ ºñ±³°á°ú :"+(x==10));
-		System.out.println("y==zÀÇ ºñ±³°á°ú :"+(y==z));
+		System.out.println("x==yï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x==y));
+		System.out.println("x==10ï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x==10));
+		System.out.println("y==zï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(y==z));
 		
-		System.out.println("x!=yÀÇ ºñ±³°á°ú :"+(x!=y));
-		System.out.println("x!=13ÀÇ ºñ±³°á°ú :"+(x!=13));
+		System.out.println("x!=yï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x!=y));
+		System.out.println("x!=13ï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x!=13));
 		
-		System.out.println("x<=yÀÇ ºñ±³°á°ú :"+(x<=y));
-		System.out.println("x>=yÀÇ ºñ±³°á°ú :"+(x>=y));
+		System.out.println("x<=yï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x<=y));
+		System.out.println("x>=yï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ :"+(x>=y));
 	}
 }
 
