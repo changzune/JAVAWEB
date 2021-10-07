@@ -1,5 +1,5 @@
-package ch4;
-s
+package test;
+
 public class MethodEx6 {
 	//1.리턴값이 있는 메소드를 선언한다.
 	public void  summarize(int a){
