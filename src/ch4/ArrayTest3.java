@@ -1,27 +1,20 @@
 package ch4;
 
-public class ArrayTest3 {
-	public static void main(String[] args) {
-		int [] num;
-		char [] ch;
-		
-		num=new int[5];
-		ch=new char[5];
-		
-		for(int i=0; i<num.length;i++){
-			num[i]=i;
+public class ArrayTest3{
+	public  static  void main(String[]  args){
+		int arr[][];
+		arr=new int[3][3];
+
+		//i가 이차원 배열 arr의 일차원 배열요소
+		for(int i=0; i < arr.length;i++){  //i= 0,1,2
+			//j가 arr의 이차원 배열요소
+			for(int j=0; j<arr[i].length;j++)  
+				arr[i][j]=3*i +j;  //배열인덱스와 같은 값을 배열에 할당한다.
 		}
 		
-		for(int i=0; i<ch.length;i++){
-			ch[i]=(char)(97+i);
-		}
-		
-		for(int i=0; i<num.length;i++){
-			System.out.println("num["+i+"]="+num[i]);
-		}
-		
-		for(int i=0; i<ch.length;i++){
-			System.out.println("ch["+i+"]="+ch[i]);
+		for(int i=0; i<arr.length; i++){
+			for(int j=0; j<arr[i].length; j++)
+				System.out.println("arr[" + i +"]["+ j + "]=" + arr[i][j]);
 		}
 	}
 }
