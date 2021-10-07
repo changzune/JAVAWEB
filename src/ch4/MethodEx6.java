@@ -14,7 +14,7 @@ public class MethodEx6 {
 		System.out.println("1에서 "+_a+"까지의 합은 " +sum);
 	}
 	
-	public static void main(String[] args){
+	public static v oid main(String[] args){
 		//2.변수 선언
 		int num1=10;
 		int num2=20;

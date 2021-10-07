@@ -1,5 +1,5 @@
-package test;
-
+package ch4;
+s
 public class MethodEx6 {
 	//1.리턴값이 있는 메소드를 선언한다.
 	public void  summarize(int a){
@@ -8,7 +8,7 @@ public class MethodEx6 {
 			sum+=i;  //sum=sum+i
 		
 		print(a,sum);
-	} 
+	}
 	
 	public void print(int _a,int sum){
 		System.out.println("1에서 "+_a+"까지의 합은 " +sum);
