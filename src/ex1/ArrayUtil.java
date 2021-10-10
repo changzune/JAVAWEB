@@ -13,7 +13,7 @@ public class ArrayUtil {
 	      average=(float)total/num.length;
 	      System.out.println("배열의 총합:"+total+",배열의 평균:"+average);
 	   }
-	   
+	   //배열클래스를 가지고 매소드를 추가해서 사용하면 된다.
 	   //배열요소값을 오름차순으로 정렬하는 메서드
 	   public void sortArray(int[] num){
 	      int temp=0;
