@@ -6,6 +6,7 @@ public class Student {
 	private int grade;
 	
 	//인자가 하개인 생성자
+	//인자가 하개인 생성자
 
 	
 
