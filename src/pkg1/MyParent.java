@@ -1,6 +1,6 @@
 package pkg1;
 
-class MyParent{
+public class MyParent{ // 접근제어자 변경
 	private int prv; //같은 클래스
 			int dft; //같은 패키지
 	protected int prt; // 같은패키지 +자손 (다른패키지)
@@ -18,7 +18,7 @@ class MyParent{
 	
 }
 
-public class MyParentTest {
+ class MyParentTest {
 	
 public static void main(String[] args) {
 	MyParent p = new MyParent();
