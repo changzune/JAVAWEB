@@ -1,4 +1,4 @@
-package java_jsk;
+package java_jsk; //여러종류 객체 배열로 다루기 
 class Product2 {
 	int price;			// 제품의 가격
 	int bonusPoint;	// 제품구매 시 제공하는 보너스점수
