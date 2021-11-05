@@ -6,7 +6,7 @@ public class MethodEx1 {
 	//1.리턴값과 인자없는 메소드를 선언한다.
 	public  void   print(){
 		System.out.println("메소드를 호출합니다.");
-		
+		//4.22
 	}
 	
 	public static void main(String[] args){
