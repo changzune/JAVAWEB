@@ -27,7 +27,8 @@ public class Car {
 		this.color = color;
 		this.maxSpeed = maxSpeed;
 	}
-	
+	//코드가 지저분한다 조금 더 간결화 해보자.
+	//this옆에 두면된다.
 	
 	
 }
