@@ -7,6 +7,9 @@ public class imstanceofExample {
 		Parent parentA = new Child();
 		method1(parentA);
 		
+		Parent parentB = new Parent();
+		method1(parentB);
+		
 
 		}
 	
