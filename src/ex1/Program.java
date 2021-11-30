@@ -1,27 +1,40 @@
 package ex1;
 
-import java.beans.Statement;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Program {
-
-	public static void main(String[] args) {
-		
-		String url = "jdbc:oralce:thin:@localhost:7070/xepad1";
-		String sql = "SELECT* FROM NOTICE";
+	
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	
+		String url = "jdbc:oracle:thin@localhost:1521/xepdb1";
+		String sql = "SELECT * FROM NOTICE ";
 		
 		Class.forName("oracle.jdbc.driver.oracleDribver");
-		Connection con =  DriverManager.getConnection(url,"newlec","");
+		Connection con = DriverManager.getConnection(url, "newlec","");
 		Statement st = con.createStatement();
 		ResultSet rs = st.executeQuery(sql);
 		
+		if(rs.next()) {
+		String title = rs.getString("title");
+		System.out.println(title);
+		}
 		rs.close();
 		st.close();
 		con.close();
 		
-
+		
+		
+		
+		
+		
 	}
+	
+	
+	
 
 }
