@@ -18,7 +18,7 @@ public class Program {
 		Connection con = DriverManager.getConnection(url, "newlec","");
 		Statement st = con.createStatement();
 		ResultSet rs = st.executeQuery(sql);
-		
+		//jdbc 
 		if(rs.next()) {
 		String title = rs.getString("title");
 		System.out.println(title);
